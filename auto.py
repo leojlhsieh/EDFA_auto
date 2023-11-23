@@ -11,6 +11,8 @@ import os
 %matplotlib qt
 plt.close('all')
 
+
+## In linux, you need to give permission to the USB port
 ## sudo chmod a+rw /dev/usbtmc0  ## a (all user)  + (add)  rw (read and write permissions)
 ## ls -l /dev/ttyUSB*
 PM_PORT = '/dev/usbtmc0'
